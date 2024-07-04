@@ -14,11 +14,14 @@ public class Activity_Game extends AppCompatActivity {
     private boolean goodToGo = true;
     int[] steps = {1, 1, 1, 2, 2, 2, 3, 3, 3};
 
+
     /* access modifiers changed from: protected */
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView((int) R.layout.activity_game);
         String id = getIntent().getStringExtra(EXTRA_ID);
+
         if (id.length() == this.steps.length) {
             int i = 0;
             while (true) {
@@ -30,6 +33,7 @@ public class Activity_Game extends AppCompatActivity {
                 i++;
             }
         }
+
         findViews();
         initViews();
     }
