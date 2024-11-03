@@ -1,4 +1,3 @@
-﻿# ex2_mobileSecurity
 
 ## Explanation of the Work Process
 
